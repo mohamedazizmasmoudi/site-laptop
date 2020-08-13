@@ -1,0 +1,52 @@
+.Vspace{
+    height: 100px;
+}
+
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+}
+
+
+
+form{
+    
+    width: 50%;
+}
+
+.input_name{
+    margin: 10px 0px;
+}
+
+.input{
+    display: block;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    width: 505px;
+    border: 1px solid gray;
+    font-size: 16px;
+}
+
+.input_name input{
+   display: inline;
+   width: 250px;
+   margin: 0;
+}
+
+textarea{
+    width: 505px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
