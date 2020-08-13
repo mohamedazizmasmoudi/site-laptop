@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap"
+      rel="stylesheet"
+    />
+	<link rel="stylesheet" href="./style.css" />
+	<link rel="stylesheet" href="./contact.css" />
+
+	<link rel="stylesheet" href="./footer.css" />
+
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <img src="./img/logo.svg" alt="logo" />
+        <h4 class="logo">Aziz Shop</h4>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a class="nav-link" href="./index.html">Home</a></li>
+          <li><a class="nav-link" href="./product.html">Products</a></li>
+          <li><a class="nav-link" href="./contact.html">Contact</a></li>
+          <li><a class="nav-link" href="./about.html">About us</a></li>
+
+        </ul>
+      </nav>
+      <div class="cart">
+        <img src="./img/cart.svg" alt="cart" />
+      </div>
+    </header>
+
+    <main>
+      <section class="presentation">
+        <div class="introduction">
+            <form action="./index.html"  name="create_account" onsubmit="return(verify_create());">
+             
+              <input class="input"  placeholder="Email"  type="text" name="email" id="email">
+              <input class="input" placeholder="Password"  type="password" name="password" id="password">
+              <br>
+              <button class="cta-add" style="margin-left: 150px" type="submit">Sign in</button>
+          </form>
+        
+        </div>
+        <div class="cover">
+          <img src="./img/Groupe 812.png" alt="matebook" />
+        </div>
+      </section>
+
+   
+
+      <img class="big-circle" src="./img/big-eclipse.svg" alt="" />
+      <img class="medium-circle" src="./img/mid-eclipse.svg" alt="" />
+      <img class="small-circle" src="./img/small-eclipse.svg" alt="" />
+    </main>
+    
+
+
+
+
+
+
+  </div>
+</section>
+
+
+	
+
+  </body>
+  <script>
+
+function verify_create(){
+   var email = document.create_account.email.value;
+   var password = document.create_account.password.value;
+
+   //alert(name +" " + email + " " +password +" " + conf_password);
+   
+
+    // verify email
+    if( (email.indexOf("@")<1) || (email.lastIndexOf(".")<(email.indexOf("@")))){
+        
+        alert("Please enter correct email ");
+        return false;
+    }
+
+    
+    if(password.length<8){
+        alert("Please enter correct password (pass > 8 )");
+        return false;
+    } 
+
+
+    
+
+}
+
+  </script>
+
+
+</html>
