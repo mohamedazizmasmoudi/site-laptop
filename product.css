@@ -56,3 +56,56 @@
 
 
 
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top:50px;
+}
+.products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left:120px;
+    margin-right: 120px;
+   
+
+}
+
+
+.product{
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:10px;
+}
+
+
+
+
+
+.grid-btn {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: white;
+    cursor: pointer;
+    
+}
+.grid-btns{
+    margin-bottom:50px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    width:200px;
+}
+
+.grid-btn:hover {
+    font-size: 20px;
+}
+
+

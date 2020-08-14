@@ -38,23 +38,50 @@
 
     <main>
       <section class="presentation">
+         <div class="cover">
+          <div class="info">
+
+            <div class="info-content">
+                <div class="info-text">
+                    <h3>PHONE</h3>
+                    <p> (+216) 22222222</p>                 
+                </div>    
+                <img src="images/mobile.png" alt="" class="info-img">
+            </div>
+
+            <div class="info-content">
+                <div class="info-text">
+                    <h3>ADDRESS</h3>
+                    <p>Le15,15 Carthago St,Tunis</p>
+                </div>
+                <img src="images/location.png" alt="" class="info-img"> 
+            </div>
+
+            <div class="info-content">
+                <div class="info-text">
+                    <h3>EMAIL</h3>
+                    <p>mouhamed.aziz.masmoudi@gmail.com</p>                  
+                </div> 
+                <img src="images/email.png" alt="" class="info-img">
+            </div>
+
+        </div>        </div>
         <div class="introduction">
-            <form action="">
-              <div class="input_name">
-                  <input class="input" type="text" placeholder="First Name" required>
-                  <input class="input" type="text" placeholder="Last Name" required>
+           
+          <form action="./index.html"  name="create_account" onsubmit="return(verify_create());">
+               <div class="input_name">
+                  <input class="input" type="text" placeholder="First Name" name="fname" id="fname">
+                  <input class="input" type="text" placeholder="Last Name" name="name" id="name">
               </div>
-              <input class="input" type="email" placeholder="Email" required>
-              <input class="input" type="text" placeholder="Subject" required>
-              <textarea name="" id="" rows="10" placeholder="message..." required></textarea>
-              <br>
-              <button class="cta-add" type="submit">Send</button>
-          </form>
-        
+         <input class="input"  placeholder="Email"  type="text" name="email" id="email">
+            <input class="input" placeholder="subject"  type="subject" name="subject" id="subject">
+              <textarea rows="10" placeholder="message..."  name="message" id="message"></textarea>
+           
+            <br>
+            <button class="cta-add" style="margin-left: 150px" type="submit">Submit</button>
+        </form>
         </div>
-        <div class="cover">
-          <img src="./img/Groupe 812.png" alt="matebook" />
-        </div>
+       
       </section>
 
    
@@ -138,4 +165,45 @@
   </body>
   
 
+<script>
+
+  function verify_create(){
+     var email = document.create_account.email.value;
+     var subject = document.create_account.subject.value;
+     var fname = document.create_account.fname.value;
+     var name = document.create_account.name.value;
+      var message = document.create_account.message.value;
+ if(fname.length<1){
+          alert("Please enter fname");
+          return false;
+      } 
+      if(name.length<1){
+          alert("Please enter name");
+          return false;
+      } 
+    
+      if( (email.indexOf("@")<1) || (email.lastIndexOf(".")<(email.indexOf("@")))){
+          
+          alert("Please enter correct email ");
+          return false;
+      }
+  
+      
+      if(subject.length<1){
+          alert("Please enter subject");
+          return false;
+      } 
+     
+  
+      if(message.length<1){
+          alert("Please enter message");
+          return false;
+      } else{
+        alert("envoyé avec succès");
+
+      }
+  
+  }
+  
+    </script>
 </html>

@@ -78,10 +78,7 @@ function verify_create(){
    var email = document.create_account.email.value;
    var password = document.create_account.password.value;
 
-   //alert(name +" " + email + " " +password +" " + conf_password);
-   
-
-    // verify email
+  
     if( (email.indexOf("@")<1) || (email.lastIndexOf(".")<(email.indexOf("@")))){
         
         alert("Please enter correct email ");

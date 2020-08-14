@@ -8,10 +8,10 @@
       href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap"
       rel="stylesheet"
     />
-	<link rel="stylesheet" href="./style.css" />
-	<link rel="stylesheet" href="./product.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./product.css" />
 
-	<link rel="stylesheet" href="./footer.css" />
+    <link rel="stylesheet" href="./footer.css" />
 
     <title>Landing Page</title>
   </head>
@@ -25,10 +25,9 @@
         <ul class="nav-links">
           <li><a class="nav-link" href="./index.html">Home</a></li>
           <li><a class="nav-link" href="./product.html">Products</a></li>
-		  <li><a class="nav-link" href="./contact.html">Contact</a></li>
-		  <li><a class="nav-link" href="./about.html">About us</a></li>
+          <li><a class="nav-link" href="./contact.html">Contact</a></li>
+          <li><a class="nav-link" href="./about.html">About us</a></li>
           <li><a class="nav-link" href="./sign_in.html">Sign out</a></li>
-
         </ul>
       </nav>
       <div class="cart">
@@ -36,208 +35,341 @@
       </div>
     </header>
 
+    <div class="wrapper">
+      <div class="tabs_wrap">
+        <ul>
+          <li data-tabs="male">Male</li>
+          <li data-tabs="female">Female</li>
+          <li data-tabs="both" class="active">All</li>
+        </ul>
+      </div>
+    </div>
 
+    <div class="content">
+      <div class="grid-btns">
+        <p class="grid-view">VIEW BY</p>
+        <button class="grid-btn" onclick="displayOne()">1</button>
+        <button class="grid-btn" onclick="displayTwo()">2</button>
+        <button class="grid-btn" onclick="displayThree()">3</button>
+	  </div>      
 
-  
+      <div class="item_wrap male online">	    <div class="products">
 
-		<div class="wrapper">
-			
-			<div class="tabs_wrap">
-				<ul>
-					<li data-tabs="male">Male</li>
-					<li data-tabs="female">Female</li>
-					<li data-tabs="both" class="active">All</li>
-				</ul>
-			</div>
+          <div class="product" id="prod1">
+            <div class="cover">
+              <img src="./img/matebook.png" alt="matebook" />
+            </div>
+            <div class="intro-text">
+              <h1>Laptop for the future</h1>
+              <p>
+                The new 14 inch bezeless display oferring a 4k display with
+                touch screen.
+              </p>
+            </div>
+            <div class="cta">
+              <button class="cta-select">14 Inch</button>
+              <button class="cta-add">Add To Cart</button>
+            </div>
+          </div>
+
+          <div class="product" id="prod2">
+            <div class="cover">
+              <img src="./img/matebook.png" alt="matebook" />
+            </div>
+            <div class="intro-text">
+              <h1>Laptop for the future</h1>
+              <p>
+                The new 14 inch bezeless display oferring a 4k display with
+                touch screen.
+              </p>
+            </div>
+            <div class="cta">
+              <button class="cta-select">14 Inch</button>
+              <button class="cta-add">Add To Cart</button>
+            </div>
+          </div>
+
+          <div class="product" id="prod3">
+            <div class="cover">
+              <img src="./img/matebook.png" alt="matebook" />
+            </div>
+            <div class="intro-text">
+              <h1>Laptop for the future</h1>
+              <p>
+                The new 14 inch bezeless display oferring a 4k display with
+                touch screen.
+              </p>
+            </div>
+            <div class="cta">
+              <button class="cta-select">14 Inch</button>
+              <button class="cta-add">Add To Cart</button>
+            </div>
+          </div>
+		
+
+          <div class="product" id="prod4">
+            <div class="cover">
+              <img src="./img/matebook.png" alt="matebook" />
+            </div>
+            <div class="intro-text">
+              <h1>Laptop for the future</h1>
+              <p>
+                The new 14 inch bezeless display oferring a 4k display with
+                touch screen.
+              </p>
+            </div>
+            <div class="cta">
+              <button class="cta-select">14 Inch</button>
+              <button class="cta-add">Add To Cart</button>
+            </div>
+          </div>
+          <div class="product" id="prod5">
+            <div class="cover">
+              <img src="./img/matebook.png" alt="matebook" />
+            </div>
+            <div class="intro-text">
+              <h1>Laptop for the future</h1>
+              <p>
+                The new 14 inch bezeless display oferring a 4k display with
+                touch screen.
+              </p>
+            </div>
+            <div class="cta">
+              <button class="cta-select">14 Inch</button>
+              <button class="cta-add">Add To Cart</button>
+            </div>
+          </div>
+
+          <div class="product" id="prod6">
+            <div class="cover">
+              <img src="./img/matebook.png" alt="matebook" />
+            </div>
+            <div class="intro-text">
+              <h1>Laptop for the future</h1>
+              <p>
+                The new 14 inch bezeless display oferring a 4k display with
+                touch screen.
+              </p>
+            </div>
+            <div class="cta">
+              <button class="cta-select">14 Inch</button>
+              <button class="cta-add">Add To Cart</button>
+            </div>
+		  </div>
+		  </div>
 		</div>
-				
+	</div>
 
-	<main>
-		<div class="item_wrap female online">
-		<section class="presentation ">
-		
-		  <div class="introduction">
-			  <div class="cover">
-				<img src="./img/matebook.png" alt="matebook" />
-			  </div>
-			  <div class="intro-text">
-				<h1>Laptop for the future</h1>
-				<p>
-				  The new 14 inch bezeless display oferring a 4k display with
-				  touch screen.
-				</p>
-			  </div>
-			  <div class="cta">
-				  <button class="cta-select">14 Inch</button>
-				  <button class="cta-add">Add To Cart</button>
-			  </div>
-			</div>
-		
-	
-		  <div class="introduction">
-			  <div class="cover">
-				<img src="./img/matebook.png" alt="matebook" />
-			  </div>
-			  <div class="intro-text">
-				<h1>Laptop for the future</h1>
-				<p>
-				  The new 14 inch bezeless display oferring a 4k display with
-				  touch screen.
-				</p>
-			  </div>
-			  <div class="cta">
-				  <button class="cta-select">14 Inch</button>
-				  <button class="cta-add">Add To Cart</button>
-			  </div>
-			</div>
-		
-		</section></div>
-    </main>
-       
-	<main>
-		<div class="item_wrap male online">
-		<section class="presentation ">
-		  <div class="introduction">
-			  <div class="cover">
-				<img src="./img/matebook.png" alt="matebook" />
-			  </div>
-			  <div class="intro-text">
-				<h1>Laptop for the male 1</h1>
-				<p>
-				  The new 14 inch bezeless display oferring a 4k display with
-				  touch screen.
-				</p>
-			  </div>
-			  <div class="cta">
-				  <button class="cta-select">14 Inch</button>
-				  <button class="cta-add">Add To Cart</button>
-			  </div>
-			</div>
-		
-		  <div class="introduction">
-				<div class="cover">
-				<img src="./img/matebook.png" alt="matebook" />
-			  </div>
-			  <div class="intro-text">
-				<h1>Laptop for the future</h1>
-				<p>
-				  The new 14 inch bezeless display oferring a 4k display with
-				  touch screen.
-				</p>
-			  </div>
-			  <div class="cta">
-				  <button class="cta-select">14 Inch</button>
-				  <button class="cta-add">Add To Cart</button>
-			  </div>
-			</div>
-		
+		  <div class="item_wrap female online">	 
+			     <div class="products">
 
-      
-		</section></div>
-    </main>
-       
-	<main>
-		<div class="item_wrap male online">
-		<section class="presentation ">
-		  <div class="introduction ">
-			  <div class="cover">
-				<img src="./img/matebook.png" alt="matebook" />
-			  </div>
-			  <div class="intro-text">
-				<h1>Laptop for the ffffuture male 2</h1>
-				<p>
-				  The new 14 inch bezeless display oferring a 4k display with
-				  touch screen.
-				</p>
-			  </div>
-			  <div class="cta">
-				  <button class="cta-select">14 Inch</button>
-				  <button class="cta-add">Add To Cart</button>
-			  </div>
-			</div>
-		
-		  <div class="introduction">
-			  <div class="cover">
-				<img src="./img/matebook.png" alt="matebook" />
-			  </div>
-			  <div class="intro-text">
-				<h1>Laptop for the future</h1>
-				<p>
-				  The new 14 inch bezeless display oferring a 4k display with
-				  touch screen.
-				</p>
-			  </div>
-			  <div class="cta">
-				  <button class="cta-select">14 Inch</button>
-				  <button class="cta-add">Add To Cart</button>
-			  </div>
-			</div>
-		
 
-		</section></div>
-    </main>
-	
-<footer>
-  <!-- Footer main -->
-  <section class="ft-main">
-    <div class="ft-main-item">
-      <h2 class="ft-title">About</h2>
-      <ul>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Pricing</a></li>
-        <li><a href="#">Customers</a></li>
-        <li><a href="#">Careers</a></li>
-      </ul>
+
+          <div class="product" id="prod7">
+            <div class="cover">
+              <img src="./img/matebook.png" alt="matebook" />
+            </div>
+            <div class="intro-text">
+              <h1>Laptop for the future</h1>
+              <p>
+                The new 14 inch bezeless display oferring a 4k display with
+                touch screen.
+              </p>
+            </div>
+            <div class="cta">
+              <button class="cta-select">14 Inch</button>
+              <button class="cta-add">Add To Cart</button>
+            </div>
+          </div>
+
+          <div class="product" id="prod8">
+            <div class="cover">
+              <img src="./img/matebook.png" alt="matebook" />
+            </div>
+            <div class="intro-text">
+              <h1>Laptop for the future</h1>
+              <p>
+                The new 14 inch bezeless display oferring a 4k display with
+                touch screen.
+              </p>
+            </div>
+            <div class="cta">
+              <button class="cta-select">14 Inch</button>
+              <button class="cta-add">Add To Cart</button>
+            </div>
+          </div>
+
+          <div class="product" id="prod9">
+            <div class="cover">
+              <img src="./img/matebook.png" alt="matebook" />
+            </div>
+            <div class="intro-text">
+              <h1>Laptop for the future</h1>
+              <p>
+                The new 14 inch bezeless display oferring a 4k display with
+                touch screen.
+              </p>
+            </div>
+            <div class="cta">
+              <button class="cta-select">14 Inch</button>
+              <button class="cta-add">Add To Cart</button>
+            </div>
+		  </div>
+		  <div class="product" id="prod10">
+            <div class="cover">
+              <img src="./img/matebook.png" alt="matebook" />
+            </div>
+            <div class="intro-text">
+              <h1>Laptop for the future</h1>
+              <p>
+                The new 14 inch bezeless display oferring a 4k display with
+                touch screen.
+              </p>
+            </div>
+            <div class="cta">
+              <button class="cta-select">14 Inch</button>
+              <button class="cta-add">Add To Cart</button>
+            </div>
+		  </div>
+		  <div class="product" id="prod11">
+            <div class="cover">
+              <img src="./img/matebook.png" alt="matebook" />
+            </div>
+            <div class="intro-text">
+              <h1>Laptop for the future</h1>
+              <p>
+                The new 14 inch bezeless display oferring a 4k display with
+                touch screen.
+              </p>
+            </div>
+            <div class="cta">
+              <button class="cta-select">14 Inch</button>
+              <button class="cta-add">Add To Cart</button>
+            </div>
+		  </div>
+		  <div class="product" id="prod10">
+            <div class="cover">
+              <img src="./img/matebook.png" alt="matebook" />
+            </div>
+            <div class="intro-text">
+              <h1>Laptop for the future</h1>
+              <p>
+                The new 14 inch bezeless display oferring a 4k display with
+                touch screen.
+              </p>
+            </div>
+            <div class="cta">
+              <button class="cta-select">14 Inch</button>
+              <button class="cta-add">Add To Cart</button>
+            </div>
+          </div>
+		</div>
+	</div>
+
+</div>
+</div>
+
+
+        <!-- <div class="product" id="prod11">
+          <img src="products/rug5.jpg" class="product-img" />
+          <div class="description">
+            <p class="name">ALLEY rug</p>
+            <p class="price">250DT</p>
+            <div class="add-btns">
+              <input
+                type="image"
+                src="images/add.png"
+                alt="add"
+                onclick="addToWishlist('11');"
+              />
+              <input
+                type="image"
+                src="images/buy.png"
+                alt="buy"
+                onclick="buy('11');"
+              />
+            </div>
+          </div>
+        </div> -->
+      </div>
     </div>
-    <div class="ft-main-item">
-      <h2 class="ft-title">Resources</h2>
-      <ul>
-        <li><a href="#">Docs</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">eBooks</a></li>
-        <li><a href="#">Webinars</a></li>
-      </ul>
-    </div>
-    <div class="ft-main-item">
-      <h2 class="ft-title">Contact</h2>
-      <ul>
-        <li><a href="#">Help</a></li>
-        <li><a href="#">Sales</a></li>
-        <li><a href="#">Advertise</a></li>
-      </ul>
-    </div>
-    <div class="ft-main-item">
-      <h2 class="ft-title">Stay Updated</h2>
-      <form>
-        <input type="email" name="email" placeholder="Enter email address">
-        <input type="submit" value="Subscribe">
-      </form>
-    </div>
-  </section>
 
-  <!-- Footer social -->
-  <section class="ft-social">
-    <ul class="ft-social-list">
-      <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-      <li><a href="#"><i class="fab fa-github"></i></a></li>
-      <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-      <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-    </ul>
-  </section>
+    <footer>
+      <!-- Footer main -->
+      <section class="ft-main">
+        <div class="ft-main-item">
+          <h2 class="ft-title">About</h2>
+          <ul>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Customers</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div class="ft-main-item">
+          <h2 class="ft-title">Resources</h2>
+          <ul>
+            <li><a href="#">Docs</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">eBooks</a></li>
+            <li><a href="#">Webinars</a></li>
+          </ul>
+        </div>
+        <div class="ft-main-item">
+          <h2 class="ft-title">Contact</h2>
+          <ul>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Sales</a></li>
+            <li><a href="#">Advertise</a></li>
+          </ul>
+        </div>
+        <div class="ft-main-item">
+          <h2 class="ft-title">Stay Updated</h2>
+          <form>
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter email address"
+            />
+            <input type="submit" value="Subscribe" />
+          </form>
+        </div>
+      </section>
 
-  <!-- Footer legal -->
-  <section class="ft-legal">
-    <ul class="ft-legal-list">
-      <li><a href="#">Terms &amp; Conditions</a></li>
-      <li><a href="#">Privacy Policy</a></li>
-      <li>&copy; 2019 Copyright Nowrap Inc.</li>
-    </ul>
-  </section>
-</footer>
+      <!-- Footer social -->
+      <section class="ft-social">
+        <ul class="ft-social-list">
+          <li>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-github"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Footer legal -->
+      <section class="ft-legal">
+        <ul class="ft-legal-list">
+          <li><a href="#">Terms &amp; Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li>&copy; 2019 Copyright Nowrap Inc.</li>
+        </ul>
+      </section>
+    </footer>
   </body>
   <script src="script.js"></script>
-
 </html>
