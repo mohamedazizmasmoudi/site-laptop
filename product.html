@@ -12,14 +12,21 @@
     <link rel="stylesheet" href="./product.css" />
 
     <link rel="stylesheet" href="./footer.css" />
-
-    <title>Landing Page</title>
+<style>
+  .cover img {filter: drop-shadow(0px 0px 0px black)}
+  .cover {
+    
+    height: 50vh;
+}
+.intro-text h1 {
+     font-size: 25px;}
+</style>
+    <title>product</title>
   </head>
   <body>
     <header>
       <div class="logo-container">
-        <img src="./img/logo.svg" alt="logo" />
-        <h4 class="logo">Aziz Shop</h4>
+        <a href="./index.html" class="logo"><span class="grey-color"> &lt;</span><span class="logo-name">Aziz Shop</span><span class="grey-color">/&gt;</span></a>
       </div>
       <nav>
         <ul class="nav-links">
@@ -38,9 +45,9 @@
     <div class="wrapper">
       <div class="tabs_wrap">
         <ul>
-          <li data-tabs="male">Male</li>
-          <li data-tabs="female">Female</li>
-          <li data-tabs="both" class="active">All</li>
+          <li data-tabs="gamer">Pc Portable Gamer</li>
+          <li data-tabs="pro">Pc Portable Pro</li>
+          <li data-tabs="both" class="active">Pc Portable</li>
         </ul>
       </div>
     </div>
@@ -53,17 +60,16 @@
         <button class="grid-btn" onclick="displayThree()">3</button>
 	  </div>      
 
-      <div class="item_wrap male online">	    <div class="products">
+      <div class="item_wrap gamer online">	    <div class="products">
 
           <div class="product" id="prod1">
             <div class="cover">
-              <img src="./img/matebook.png" alt="matebook" />
+              <img src="./img/gamer/pc-portable-hp-pavilion-gaming-15-ec0003nk-ryzen-5-8-go-sim-orange-offerte-60-go.jpg" />
             </div>
             <div class="intro-text">
-              <h1>Laptop for the future</h1>
+              <h1>PC PORTABLE HP PAVILION GAMING 15-EC0004NK</h1>
               <p>
-                The new 14 inch bezeless display oferring a 4k display with
-                touch screen.
+                Écran 15.6" Full HD IPS - Processeur AMD Ryzen 5 3550H , up to 3.7 Ghz, 6 Mo de cache - Mémoire 16 Go
               </p>
             </div>
             <div class="cta">
@@ -74,13 +80,12 @@
 
           <div class="product" id="prod2">
             <div class="cover">
-              <img src="./img/matebook.png" alt="matebook" />
+              <img src="./img/gamer/pc-portable-lenovo-ideapad-l340-15irh-gaming-i5-9e-gen-8-go.jpg" alt="matebook" />
             </div>
             <div class="intro-text">
-              <h1>Laptop for the future</h1>
+              <h1>PC PORTABLE LENOVO IDEAPAD L340-15IRH GAMING </h1>
               <p>
-                The new 14 inch bezeless display oferring a 4k display with
-                touch screen.
+                Écran 15.6" Full HD IPS - Processeur Intel Core i5-9300H, up to 4.1 Ghz, 8 Mo de cache - Mémoire 8 Go 
               </p>
             </div>
             <div class="cta">
@@ -91,13 +96,13 @@
 
           <div class="product" id="prod3">
             <div class="cover">
-              <img src="./img/matebook.png" alt="matebook" />
+              <img src="./img/gamer/pc-portable-asus-tuf505dt-amd-ryzen-5-8-go-sim-orange-60-go.jpg" alt="matebook" />
             </div>
             <div class="intro-text">
-              <h1>Laptop for the future</h1>
+              <h1>PC PORTABLE  Asus tuf505dt GAMING</h1>
               <p>
-                The new 14 inch bezeless display oferring a 4k display with
-                touch screen.
+                Écran 15.6" Full HD IPS - Processeur Intel Core i9 , up to 4.1 Ghz, 8 Mo de cache - Mémoire 12 Go 
+
               </p>
             </div>
             <div class="cta">
@@ -109,13 +114,12 @@
 
           <div class="product" id="prod4">
             <div class="cover">
-              <img src="./img/matebook.png" alt="matebook" />
+              <img src="./img/gamer/pc-portable-dell-g3-3590-i5-9e-gen-16-go-noir-sim-orange-offerte-30-go.jpg" alt="matebook" />
             </div>
             <div class="intro-text">
-              <h1>Laptop for the future</h1>
+              <h1>PC PORTABLE DELL G3 3590</h1>
               <p>
-                The new 14 inch bezeless display oferring a 4k display with
-                touch screen.
+                Écran 15.6" Full HD LED - Processeur Intel Core i5-9300H, up to 4.1 GHz, 8 Mo de cache - 16 Go de mémoire - Disque 1 To + 128Go SSD
               </p>
             </div>
             <div class="cta">
@@ -125,13 +129,13 @@
           </div>
           <div class="product" id="prod5">
             <div class="cover">
-              <img src="./img/matebook.png" alt="matebook" />
+              <img src="./img/gamer/pc-portable-msi-a10m-modern-i5-10e-gen-8-go-noir-sim-orange-60-go.jpg" alt="matebook" />
             </div>
             <div class="intro-text">
-              <h1>Laptop for the future</h1>
+              <h1>PC PORTABLE MSI a10m i5</h1>
               <p>
-                The new 14 inch bezeless display oferring a 4k display with
-                touch screen.
+                Écran 15.6" Full HD LED - Processeur Intel Core i5-10e gen 8, up to 4.1 GHz, 8 Mo de cache - 16 Go de mémoire - Disque 1 To + 128Go SSD
+
               </p>
             </div>
             <div class="cta">
@@ -148,7 +152,7 @@
               <h1>Laptop for the future</h1>
               <p>
                 The new 14 inch bezeless display oferring a 4k display with
-                touch screen.
+                touch screen. 8 Mo de cache - 16 Go de mémoire - Disque 1 To + 128Go SSD
               </p>
             </div>
             <div class="cta">
@@ -160,20 +164,20 @@
 		</div>
 	</div>
 
-		  <div class="item_wrap female online">	 
+		  <div class="item_wrap pro online">	 
 			     <div class="products">
 
 
 
           <div class="product" id="prod7">
             <div class="cover">
-              <img src="./img/matebook.png" alt="matebook" />
+              <img src="./img/pro/pc-portable-professionnel-msi-modern-14-a10m-449xfr.jpg" alt="matebook" />
             </div>
             <div class="intro-text">
-              <h1>Laptop for the future</h1>
+              <h1>Laptop professionnel msi modern 14</h1>
               <p>
                 The new 14 inch bezeless display oferring a 4k display with
-                touch screen.
+                touch screen.Processeur Intel Core i5-10e
               </p>
             </div>
             <div class="cta">
@@ -184,13 +188,13 @@
 
           <div class="product" id="prod8">
             <div class="cover">
-              <img src="./img/matebook.png" alt="matebook" />
+              <img src="./img/pro/pc-portable-asus-ux480fd-be40t-i78e-gen-8go-512go-ssd-noir.jpg" alt="matebook" />
             </div>
             <div class="intro-text">
-              <h1>Laptop for the future</h1>
+              <h1>Laptop pro asus ux480fd be40t i78e</h1>
               <p>
                 The new 14 inch bezeless display oferring a 4k display with
-                touch screen.
+                touch screen.Processeur Intel Core i9
               </p>
             </div>
             <div class="cta">
@@ -201,13 +205,13 @@
 
           <div class="product" id="prod9">
             <div class="cover">
-              <img src="./img/matebook.png" alt="matebook" />
+              <img src="./img/pro/MN0005634662_1.jpg" alt="matebook" />
             </div>
             <div class="intro-text">
-              <h1>Laptop for the future</h1>
+              <h1>Laptop asus professionnel 563466 </h1>
               <p>
                 The new 14 inch bezeless display oferring a 4k display with
-                touch screen.
+                touch screen.Processeur Intel Core i5-7e
               </p>
             </div>
             <div class="cta">
@@ -215,160 +219,27 @@
               <button class="cta-add">Add To Cart</button>
             </div>
 		  </div>
-		  <div class="product" id="prod10">
-            <div class="cover">
-              <img src="./img/matebook.png" alt="matebook" />
-            </div>
-            <div class="intro-text">
-              <h1>Laptop for the future</h1>
-              <p>
-                The new 14 inch bezeless display oferring a 4k display with
-                touch screen.
-              </p>
-            </div>
-            <div class="cta">
-              <button class="cta-select">14 Inch</button>
-              <button class="cta-add">Add To Cart</button>
-            </div>
-		  </div>
-		  <div class="product" id="prod11">
-            <div class="cover">
-              <img src="./img/matebook.png" alt="matebook" />
-            </div>
-            <div class="intro-text">
-              <h1>Laptop for the future</h1>
-              <p>
-                The new 14 inch bezeless display oferring a 4k display with
-                touch screen.
-              </p>
-            </div>
-            <div class="cta">
-              <button class="cta-select">14 Inch</button>
-              <button class="cta-add">Add To Cart</button>
-            </div>
-		  </div>
-		  <div class="product" id="prod10">
-            <div class="cover">
-              <img src="./img/matebook.png" alt="matebook" />
-            </div>
-            <div class="intro-text">
-              <h1>Laptop for the future</h1>
-              <p>
-                The new 14 inch bezeless display oferring a 4k display with
-                touch screen.
-              </p>
-            </div>
-            <div class="cta">
-              <button class="cta-select">14 Inch</button>
-              <button class="cta-add">Add To Cart</button>
-            </div>
-          </div>
+		
 		</div>
 	</div>
 
 </div>
 </div>
 
-
-        <!-- <div class="product" id="prod11">
-          <img src="products/rug5.jpg" class="product-img" />
-          <div class="description">
-            <p class="name">ALLEY rug</p>
-            <p class="price">250DT</p>
-            <div class="add-btns">
-              <input
-                type="image"
-                src="images/add.png"
-                alt="add"
-                onclick="addToWishlist('11');"
-              />
-              <input
-                type="image"
-                src="images/buy.png"
-                alt="buy"
-                onclick="buy('11');"
-              />
-            </div>
-          </div>
-        </div> -->
       </div>
     </div>
 
+  
     <footer>
-      <!-- Footer main -->
-      <section class="ft-main">
-        <div class="ft-main-item">
-          <h2 class="ft-title">About</h2>
-          <ul>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Customers</a></li>
-            <li><a href="#">Careers</a></li>
-          </ul>
+      <div class="footer-container">
+        <div class="footer-icons">
+          <img src="img/instagram.png" alt="ig" class="footer-icon" />
+          <img src="img/facebook.png" alt="fb" class="footer-icon" />
+          <img src="img/youtube.png" alt="yt" class="footer-icon" />
+          <img src="img/twitter.png" alt="tw" class="footer-icon" />
         </div>
-        <div class="ft-main-item">
-          <h2 class="ft-title">Resources</h2>
-          <ul>
-            <li><a href="#">Docs</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">eBooks</a></li>
-            <li><a href="#">Webinars</a></li>
-          </ul>
-        </div>
-        <div class="ft-main-item">
-          <h2 class="ft-title">Contact</h2>
-          <ul>
-            <li><a href="#">Help</a></li>
-            <li><a href="#">Sales</a></li>
-            <li><a href="#">Advertise</a></li>
-          </ul>
-        </div>
-        <div class="ft-main-item">
-          <h2 class="ft-title">Stay Updated</h2>
-          <form>
-            <input
-              type="email"
-              name="email"
-              placeholder="Enter email address"
-            />
-            <input type="submit" value="Subscribe" />
-          </form>
-        </div>
-      </section>
-
-      <!-- Footer social -->
-      <section class="ft-social">
-        <ul class="ft-social-list">
-          <li>
-            <a href="#"><i class="fab fa-facebook"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fab fa-github"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fab fa-youtube"></i></a>
-          </li>
-        </ul>
-      </section>
-
-      <!-- Footer legal -->
-      <section class="ft-legal">
-        <ul class="ft-legal-list">
-          <li><a href="#">Terms &amp; Conditions</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-          <li>&copy; 2019 Copyright Nowrap Inc.</li>
-        </ul>
-      </section>
+        <h1 class="copyrights">Copyrights © 2020 All Rights Reserved. Aziz Shop.</h1>
+      </div>
     </footer>
   </body>
   <script src="script.js"></script>

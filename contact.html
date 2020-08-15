@@ -8,18 +8,21 @@
       href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap"
       rel="stylesheet"
     />
-	<link rel="stylesheet" href="./style.css" />
-	<link rel="stylesheet" href="./contact.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./contact.css" />
 
-	<link rel="stylesheet" href="./footer.css" />
+    <link rel="stylesheet" href="./footer.css" />
 
-    <title>Landing Page</title>
+    <title>contact us</title>
   </head>
   <body>
     <header>
       <div class="logo-container">
-        <img src="./img/logo.svg" alt="logo" />
-        <h4 class="logo">Aziz Shop</h4>
+        <a href="./index.html" class="logo"
+          ><span class="grey-color"> &lt;</span
+          ><span class="logo-name">Aziz Shop</span
+          ><span class="grey-color">/&gt;</span></a
+        >
       </div>
       <nav>
         <ul class="nav-links">
@@ -28,7 +31,6 @@
           <li><a class="nav-link" href="./contact.html">Contact</a></li>
           <li><a class="nav-link" href="./about.html">About us</a></li>
           <li><a class="nav-link" href="./sign_in.html">Sign out</a></li>
-
         </ul>
       </nav>
       <div class="cart">
@@ -38,172 +40,139 @@
 
     <main>
       <section class="presentation">
-         <div class="cover">
+        <div class="cover">
           <div class="info">
-
             <div class="info-content">
-                <div class="info-text">
-                    <h3>PHONE</h3>
-                    <p> (+216) 22222222</p>                 
-                </div>    
-                <img src="images/mobile.png" alt="" class="info-img">
-            </div>
-
-            <div class="info-content">
-                <div class="info-text">
-                    <h3>ADDRESS</h3>
-                    <p>Le15,15 Carthago St,Tunis</p>
-                </div>
-                <img src="images/location.png" alt="" class="info-img"> 
-            </div>
-
-            <div class="info-content">
-                <div class="info-text">
-                    <h3>EMAIL</h3>
-                    <p>mouhamed.aziz.masmoudi@gmail.com</p>                  
-                </div> 
-                <img src="images/email.png" alt="" class="info-img">
-            </div>
-
-        </div>        </div>
-        <div class="introduction">
-           
-          <form action="./index.html"  name="create_account" onsubmit="return(verify_create());">
-               <div class="input_name">
-                  <input class="input" type="text" placeholder="First Name" name="fname" id="fname">
-                  <input class="input" type="text" placeholder="Last Name" name="name" id="name">
+              <div class="info-text">
+                <h3>PHONE</h3>
+                <p>(+216) 22222222</p>
               </div>
-         <input class="input"  placeholder="Email"  type="text" name="email" id="email">
-            <input class="input" placeholder="subject"  type="subject" name="subject" id="subject">
-              <textarea rows="10" placeholder="message..."  name="message" id="message"></textarea>
-           
-            <br>
-            <button class="cta-add" style="margin-left: 150px" type="submit">Submit</button>
-        </form>
-        </div>
-       
-      </section>
+              <img src="images/mobile.png" alt="" class="info-img" />
+            </div>
 
-   
+            <div class="info-content">
+              <div class="info-text">
+                <h3>ADDRESS</h3>
+                <p>07 , ezzahra,Tunis</p>
+              </div>
+              <img src="images/location.png" alt="" class="info-img" />
+            </div>
+
+            <div class="info-content">
+              <div class="info-text">
+                <h3>EMAIL</h3>
+                <p>mouhamed.aziz.masmoudi@gmail.com</p>
+              </div>
+              <img src="images/email.png" alt="" class="info-img" />
+            </div>
+          </div>
+        </div>
+        <div class="introduction">
+          <form
+            action="./index.html"
+            name="create_account"
+            onsubmit="return(verify_create());"
+          >
+            <div class="input_name">
+              <input
+                class="input"
+                type="text"
+                placeholder="First Name"
+                name="fname"
+                id="fname"
+              />
+              <input
+                class="input"
+                type="text"
+                placeholder="Last Name"
+                name="name"
+                id="name"
+              />
+            </div>
+            <input
+              class="input"
+              placeholder="Email"
+              type="text"
+              name="email"
+              id="email"
+            />
+            <input
+              class="input"
+              placeholder="subject"
+              type="subject"
+              name="subject"
+              id="subject"
+            />
+            <textarea
+              rows="10"
+              placeholder="message..."
+              name="message"
+              id="message"
+            ></textarea>
+
+            <br />
+            <button class="cta-add" style="margin-left: 150px;" type="submit">
+              Submit
+            </button>
+          </form>
+        </div>
+      </section>
 
       <img class="big-circle" src="./img/big-eclipse.svg" alt="" />
       <img class="medium-circle" src="./img/mid-eclipse.svg" alt="" />
       <img class="small-circle" src="./img/small-eclipse.svg" alt="" />
     </main>
-    
 
-
-
-
-
-
-  </div>
-</section>
-
-
-	
-<footer>
-  <!-- Footer main -->
-  <section class="ft-main">
-    <div class="ft-main-item">
-      <h2 class="ft-title">About</h2>
-      <ul>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Pricing</a></li>
-        <li><a href="#">Customers</a></li>
-        <li><a href="#">Careers</a></li>
-      </ul>
-    </div>
-    <div class="ft-main-item">
-      <h2 class="ft-title">Resources</h2>
-      <ul>
-        <li><a href="#">Docs</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">eBooks</a></li>
-        <li><a href="#">Webinars</a></li>
-      </ul>
-    </div>
-    <div class="ft-main-item">
-      <h2 class="ft-title">Contact</h2>
-      <ul>
-        <li><a href="#">Help</a></li>
-        <li><a href="#">Sales</a></li>
-        <li><a href="#">Advertise</a></li>
-      </ul>
-    </div>
-    <div class="ft-main-item">
-      <h2 class="ft-title">Stay Updated</h2>
-      <form>
-        <input type="email" name="email" placeholder="Enter email address">
-        <input type="submit" value="Subscribe">
-      </form>
-    </div>
-  </section>
-
-  <!-- Footer social -->
-  <section class="ft-social">
-    <ul class="ft-social-list">
-      <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-      <li><a href="#"><i class="fab fa-github"></i></a></li>
-      <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-      <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-    </ul>
-  </section>
-
-  <!-- Footer legal -->
-  <section class="ft-legal">
-    <ul class="ft-legal-list">
-      <li><a href="#">Terms &amp; Conditions</a></li>
-      <li><a href="#">Privacy Policy</a></li>
-      <li>&copy; 2019 Copyright Nowrap Inc.</li>
-    </ul>
-  </section>
-</footer>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-icons">
+          <img src="img/instagram.png" alt="ig" class="footer-icon" />
+          <img src="img/facebook.png" alt="fb" class="footer-icon" />
+          <img src="img/youtube.png" alt="yt" class="footer-icon" />
+          <img src="img/twitter.png" alt="tw" class="footer-icon" />
+        </div>
+        <h1 class="copyrights">
+          Copyrights © 2020 All Rights Reserved. Aziz Shop.
+        </h1>
+      </div>
+    </footer>
   </body>
-  
 
-<script>
-
-  function verify_create(){
-     var email = document.create_account.email.value;
-     var subject = document.create_account.subject.value;
-     var fname = document.create_account.fname.value;
-     var name = document.create_account.name.value;
+  <script>
+    function verify_create() {
+      var email = document.create_account.email.value;
+      var subject = document.create_account.subject.value;
+      var fname = document.create_account.fname.value;
+      var name = document.create_account.name.value;
       var message = document.create_account.message.value;
- if(fname.length<1){
-          alert("Please enter fname");
-          return false;
-      } 
-      if(name.length<1){
-          alert("Please enter name");
-          return false;
-      } 
-    
-      if( (email.indexOf("@")<1) || (email.lastIndexOf(".")<(email.indexOf("@")))){
-          
-          alert("Please enter correct email ");
-          return false;
+      if (fname.length < 1) {
+        alert("Please enter fname");
+        return false;
       }
-  
-      
-      if(subject.length<1){
-          alert("Please enter subject");
-          return false;
-      } 
-     
-  
-      if(message.length<1){
-          alert("Please enter message");
-          return false;
-      } else{
-        alert("envoyé avec succès");
+      if (name.length < 1) {
+        alert("Please enter name");
+        return false;
+      }
 
+      if (
+        email.indexOf("@") < 1 ||
+        email.lastIndexOf(".") < email.indexOf("@")
+      ) {
+        alert("Please enter correct email ");
+        return false;
       }
-  
-  }
-  
-    </script>
+
+      if (subject.length < 1) {
+        alert("Please enter subject");
+        return false;
+      }
+
+      if (message.length < 1) {
+        alert("Please enter message");
+        return false;
+      } else {
+        alert("envoyé avec succès");
+      }
+    }
+  </script>
 </html>

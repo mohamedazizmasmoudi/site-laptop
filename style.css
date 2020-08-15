@@ -1,213 +1,235 @@
+@font-face {
+  font-family: "Agustina Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Agustina Regular"), url("Agustina.woff") format("woff");
+}
 * {
-	margin: 0px;
-	padding: 0px;
-	box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 body {
-	font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 button {
-	font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 header {
-	display: flex;
-	width: 90%;
-	height: 10vh;
-	margin: auto;
-	align-items: center;
+  display: flex;
+  width: 90%;
+  height: 10vh;
+  margin: auto;
+  align-items: center;
 }
-.homeproduct{
-	display: flex;
+.homeproduct {
+  display: flex;
+}
+
+.logo-name {
+  font-family: "Agustina Regular";
+  font-weight: 700;
+  padding: 0 10px;
+}
+.grey-color {
+  color: #868e96;
+}
+.logo {
+  display: block;
+  float: left;
+  font-size: 1.5em;
+  text-decoration: none;
+  margin-top: 10px;
+  line-height: normal;
 }
 .logo-container,
 .nav-links,
 .cart {
-	display: flex;
+  display: flex;
 }
 
 .logo-container {
-	flex: 1;
+  flex: 1;
 }
 .logo {
-	font-weight: 400;
-	margin: 5px;
+  font-weight: 400;
+  margin: 5px;
 }
 nav {
-	flex: 2;
+  flex: 2;
 }
 .nav-links {
-	justify-content: space-around;
-	list-style: none;
+  justify-content: space-around;
+  list-style: none;
 }
 .nav-link {
-	color: #5f5f79;
-	font-size: 18px;
-	text-decoration: none;
+  color: #5f5f79;
+  font-size: 18px;
+  text-decoration: none;
 }
 .cart {
-	flex: 1;
-	justify-content: flex-end;
+  flex: 1;
+  justify-content: flex-end;
 }
 
 .presentation {
-	display: flex;
-	width: 90%;
-	margin: auto;
-	min-height: 80vh;
-	align-items: center;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  min-height: 80vh;
+  align-items: center;
 }
 .introduction {
-	flex: 1;
-	padding-right: 10px;
-	padding-left: 10px;
-	max-width: 100%;
-	width: 34%;
-	
+  flex: 1;
+  padding-right: 10px;
+  padding-left: 10px;
+  max-width: 100%;
+  width: 34%;
 }
 .intro-text h1 {
-	font-size: 44px;
-	font-weight: 500;
-	background: linear-gradient(to right, #494964, #6f6f89);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+  font-size: 44px;
+  font-weight: 500;
+  background: linear-gradient(to right, #494964, #6f6f89);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .intro-text p {
-	margin-top: 5px;
-	font-size: 22px;
-	color: #585772;
+  margin-top: 5px;
+  font-size: 22px;
+  color: #585772;
 }
 .cta {
-	padding: 50px 0px 0px 0px;
+  padding: 50px 0px 0px 0px;
 }
 .cta-select {
-	border: 2px solid #c36cbb;
-	background: transparent;
-	color: #c36cbb;
-	width: 150px;
-	height: 50px;
-	cursor: pointer;
-	font-size: 16px;
+  border: 2px solid #6a57b0;
+  background: transparent;
+  color: #6a57b0;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 16px;
 }
 .cta-add {
-	background: #c36cbb;
-	width: 150px;
-	height: 50px;
-	cursor: pointer;
-	font-size: 16px;
-	border: none;
-	color: white;
-	margin: 30px 0px 0px 30px;
+  background: #6a57b0;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  color: white;
+  margin: 30px 0px 0px 30px;
 }
 
 .cover {
-	flex: 1;
-	display: flex;
-	justify-content: center;
-	height: 60vh;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  height: 60vh;
 }
 .cover img {
-	height: 100%;
-	filter: drop-shadow(0px 5px 3px black);
-	animation: drop 1.5s ease;
+  height: 100%;
+  filter: drop-shadow(0px 5px 3px black);
+  animation: drop 1.5s ease;
 }
 
 .big-circle {
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	z-index: -1;
-	opacity: 0.5;
-	height: 80%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: -1;
+  opacity: 0.5;
+  height: 80%;
 }
 .medium-circle {
-	position: absolute;
-	top: 30%;
-	right: 30%;
-	z-index: -1;
-	height: 60%;
-	opacity: 0.4;
+  position: absolute;
+  top: 30%;
+  right: 30%;
+  z-index: -1;
+  height: 60%;
+  opacity: 0.4;
 }
 .small-circle {
-	position: absolute;
-	bottom: 0%;
-	left: 20%;
-	z-index: -1;
+  position: absolute;
+  bottom: 0%;
+  left: 20%;
+  z-index: -1;
 }
 
 .laptop-select {
-	width: 15%;
-	display: flex;
-	justify-content: space-around;
-	position: absolute;
-	right: 20%;
+  width: 15%;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  right: 20%;
 }
 
 @keyframes drop {
-	0% {
-		opacity: 0;
-		transform: translateY(-80px);
-	}
-	100% {
-		opacity: 1;
-		transform: translateY(0px);
-	}
+  0% {
+    opacity: 0;
+    transform: translateY(-80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
 
+.categorie-items-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 50px;
+}
 
+.categorie-item-wrapper {
+  position: relative;
+  margin: 70px;
+}
 
-.portfolio-items-wrapper {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	margin-top: 50px;
-  }
-  
-  .portfolio-item-wrapper {
-	position: relative;
-	margin: 70px;
-  }
-  
-  .portfolio-img-background {
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	height: 350px;
-	width: 100%;
-  }
-  
-  .img-text-wrapper {
-	position: absolute;
-	top: 0;
-	display: flex;
-	flex-direction: column;
-	justify--: center;
-	align-items: center;
-	height: 100%;
-	text-align: center;
-	padding-left: 100px;
-	padding-right: 100px;
-  }
-  
-  .img-text-wrapper .subtitle {
-	transition: 1s;
-	color: transparent;
-  }
-  
-  .image-blur {
-	transition: 1s;
-	filter: brightness(10%);
-  }
-  
-  .img-text-wrapper:hover .subtitle {
-	color: rgb(251, 251, 251);
-	font-weight: 600;
-  }
-  
-  .logo-wrapper img {
-	width: 50%;
-	margin-bottom: 20px;
-  }
-  
-  
-  
+.categorie-img-background {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+}
+
+.img-text-wrapper {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify--: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.img-text-wrapper .subtitle {
+  transition: 1s;
+  color: transparent;
+}
+
+.image-blur {
+  transition: 1s;
+  filter: brightness(10%);
+}
+
+.img-text-wrapper:hover .subtitle {
+  color: rgb(251, 251, 251);
+  font-weight: 600;
+}
+
+.logo-wrapper img {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.img_marque {
+  width: 15%;
+  margin: 50px;
+}

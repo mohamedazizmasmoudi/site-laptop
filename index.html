@@ -8,17 +8,20 @@
       href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap"
       rel="stylesheet"
     />
-	<link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style.css" />
 
-	<link rel="stylesheet" href="./footer.css" />
+    <link rel="stylesheet" href="./footer.css" />
 
     <title>Landing Page</title>
   </head>
   <body>
     <header>
       <div class="logo-container">
-        <img src="./img/logo.svg" alt="logo" />
-        <h4 class="logo">Aziz Shop</h4>
+        <a href="./index.html" class="logo"
+          ><span class="grey-color"> &lt;</span
+          ><span class="logo-name">Aziz Shop</span
+          ><span class="grey-color">/&gt;</span></a
+        >
       </div>
       <nav>
         <ul class="nav-links">
@@ -27,8 +30,6 @@
           <li><a class="nav-link" href="./contact.html">Contact</a></li>
           <li><a class="nav-link" href="./about.html">About us</a></li>
           <li><a class="nav-link" href="./sign_in.html">Sign out</a></li>
-
-
         </ul>
       </nav>
       <div class="cart">
@@ -40,19 +41,21 @@
       <section class="presentation">
         <div class="introduction">
           <div class="intro-text">
-            <h1>Laptop for the future</h1>
+            <h1>Laptop IDEAPAD L340-15IRH GAMING</h1>
             <p>
-              The new 14 inch bezeless display oferring a 4k display with touch
-              screen.
+              Écran 15.6" Full HD IPS - Processeur Intel Core i5-9300H, up to
+              4.1 Ghz, 8 Mo de cache - Mémoire 8 Go - Disque 2 To - Carte
+              graphique Nvidia GeForce GTX 1050
             </p>
           </div>
           <div class="cta">
-            <button class="cta-select">14 Inch</button>
-            <button class="cta-add">Add To Cart</button>
+            <button class="cta-select nav-link">
+              <a href="./product.html">Our Product</a>
+            </button>
           </div>
         </div>
         <div class="cover">
-          <img src="./img/matebook.png" alt="matebook" />
+          <img src="./img/pro/pc-portable-asus-ux480fd-be40t-i78e-gen-8go-512go-ssd-noir.jpg" alt="matebook" style="filter: drop-shadow(0px 0px 0px black)"/>
         </div>
       </section>
 
@@ -69,206 +72,203 @@
       <img class="small-circle" src="./img/small-eclipse.svg" alt="" />
     </main>
 
-    
-	  <main>
-		  <section>
-<div class="bestof">
-<div class="portfolio-items-wrapper">
-
-
-	<div class="portfolio-item-wrapper">
-		<div class="portfolio-img-background" style="background-image:url(images/portfolio1.jpg)"></div>
-
-		<div class="img-text-wrapper">
-		  <div class="logo-wrapper">
-			<img src="images/logos/quip.png" alt="">
-		  </div>
-
-		  <div class="subtitle">I built the Quip Ecommerce platform, named a Top 25 Invention by Time Magazine in 2016.</div>
-		</div>
-	  </div>
-
-	  <div class="portfolio-item-wrapper">
-		<div class="portfolio-img-background" style="background-image:url(images/portfolio2.jpg)"></div>
-		<div class="img-text-wrapper">
-		  <div class="logo-wrapper">
-			<img src="images/logos/devcamp.png" alt="">
-		  </div>
-
-		  <div class="subtitle">Coding bootcamp and learning management system.</div>
-		</div>
-	  </div>
-
-	  <div class="portfolio-item-wrapper">
-		<div class="portfolio-img-background" style="background-image:url(images/portfolio3.jpg)"></div>
-		<div class="img-text-wrapper">
-		  <div class="logo-wrapper">
-			<img src="images/logos/eventbrite.png" alt="">
-		  </div>
-
-		  <div class="subtitle">Eventbrite is the leading event management platform on the web with millions of individuals utilizing their applications
-			to find, register or, and management events in numerous industries.</div>
-		</div>
-	  </div>
-
-</div>
-</div>
-		  </section>
-    </main>
-    
-
-
-
- 
-    
     <main>
-      <section class="presentation"><div class="cover">
-          <img src="./img/matebook.png" alt="matebook" />
-        </div>
-        <div class="introduction">
+      <section>
+        <div class="introduction" style="width: 100%; margin-top: 150px;">
           <div class="intro-text">
-            <h1>Laptop for the future</h1>
-            <p>
-              The new 14 inch bezeless display oferring a 4k display with touch
-              screen.
-            </p>
-          </div>
-          <div class="cta">
-            <button class="cta-select">14 Inch</button>
-            <button class="cta-add">Add To Cart</button>
+            <h1 style="text-align: center;">Our Categories</h1>
           </div>
         </div>
-        
+        <div class="bestof">
+          <div class="categorie-items-wrapper">
+            <a class="nav-link" href="./product.html">
+              <div class="categorie-item-wrapper">
+                <div
+                  class="categorie-img-background"
+                  style="
+                    background-image: url(img/pc-portable-asus-ux480fd-be40t-i78e-gen-8go-512go-ssd-noir.jpg);
+                  "
+                ></div>
+
+                <div class="img-text-wrapper">
+                  <div class="logo-wrapper">
+                    <img src="images/logos/quip.png" alt="" />
+                  </div>
+
+                  <div class="subtitle">Pc Portable</div>
+                </div>
+              </div></a
+            >
+            <a class="nav-link" href="./product.html">
+              <div class="categorie-item-wrapper">
+                <div
+                  class="categorie-img-background"
+                  style="
+                    background-image: url(img/hewlett-packard-sort-pc-portable-gamer-hp-omen-15-6.jpg);
+                  "
+                ></div>
+                <div class="img-text-wrapper">
+                  <div class="logo-wrapper">
+                    <img src="img/images.jfif" alt="" />
+                  </div>
+
+                  <div class="subtitle">Pc Portable Gamer</div>
+                </div>
+              </div></a
+            >
+            <a class="nav-link" href="./product.html">
+              <div class="categorie-item-wrapper">
+                <div
+                  class="categorie-img-background"
+                  style="
+                    background-image: url(img/pc-portable-professionnel-asus-zenbook-ux333fn.jpg);
+                  "
+                ></div>
+                <div class="img-text-wrapper">
+                  <div class="logo-wrapper">
+                    <img src="images/logos/eventbrite.png" alt="" />
+                  </div>
+
+                  <div class="subtitle">Pc Portable Pro</div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
       </section>
     </main>
 
+    <div class="introduction" style="width: 100%; margin-top: 150px;">
+      <div class="intro-text">
+        <h1 style="text-align: center;">Our Best</h1>
+      </div>
+    </div>
 
+    <main>
+      <section class="presentation">
+        <div class="cover">
+          <img
+            src="./img/pc-portable-lenovo-ideapad-l340-15irh-gaming-i5-9e-gen-8-go.jpg"
+            alt="matebook"
+          />
+        </div>
+        <div class="introduction">
+          <div class="intro-text">
+            <h1>LENOVO GAMING 15-EC0004NK</h1>
+            <p>
+              Écran 15.6" Full HD IPS Mémoire 24 Go - Disque 512 Go SSD M.2 -
+              Carte graphique Nvidia GeForce GTX 1050
+            </p>
+          </div>
+          <div class="cta">
+            <button class="cta-select">More</button>
+            <button class="cta-add">Add To Cart</button>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <main>
       <section class="presentation">
         <div class="introduction">
           <div class="intro-text">
-            <h1>Laptop for the future</h1>
+            <h1>LENOVO IDEAPAD V145-15AST</h1>
             <p>
-              The new 14 inch bezeless display oferring a 4k display with touch
-              screen.
+              Ecran 15.6" HD LED - Processeur AMD A4-9125 Dual Core, up to 2.6
+              GHz, 1 Mo de mémoire cache - Mémoire 4 Go - Disque 1 To - Carte
+              graphique AMD Radeon R3 Graphics
             </p>
           </div>
           <div class="cta">
-            <button class="cta-select">14 Inch</button>
+            <button class="cta-select">More</button>
             <button class="cta-add">Add To Cart</button>
           </div>
         </div>
         <div class="cover">
-          <img src="./img/matebook.png" alt="matebook" />
+          <img
+            src="./img/pc-portable-lenovo-ideapad-v145-15ast-dual-core-4-go-noir-sim-orange-offerte-60-go (1).jpg"
+            alt="matebook"
+          />
         </div>
       </section>
     </main>
 
-    
     <main>
-      <section class="presentation"><div class="cover">
-          <img src="./img/matebook.png" alt="matebook" />
+      <section class="presentation">
+        <div class="cover">
+          <img
+            src="./img/portable-lenovo-ideapad-s145-15igm-dual-core-8-go-sim-orange-60-go.jpg"
+            alt="matebook"
+          />
         </div>
         <div class="introduction">
           <div class="intro-text">
-            <h1>Laptop for the future</h1>
+            <h1>LENOVO IDEAPAD S145-15IGM</h1>
             <p>
-              The new 14 inch bezeless display oferring a 4k display with touch
-              screen.
+              Ecran 15.6" HD LED - Processeur Intel Celeron Dual Core N4000, up
+              to 2.6 Ghz, 4 Mo de mémoire cache - 8 Go de mémoire - Disque 1 To
             </p>
           </div>
           <div class="cta">
-            <button class="cta-select">14 Inch</button>
+            <button class="cta-select">More</button>
             <button class="cta-add">Add To Cart</button>
           </div>
         </div>
-        
       </section>
     </main>
 
+    <main>
+      <section>
+        <div class="introduction" style="width: 100%; margin-top: 150px;">
+          <div class="intro-text">
+            <h1 style="text-align: center;">Our Marque</h1>
+          </div>
+        </div>
+        <div style="margin-left: 10%;">
+          <img src="./img/HP-emblem.jpg" class="img_marque" alt="matebook" />
+          <img src="./img/Msi-Logo.jpg" class="img_marque" alt="matebook" />
+          <img
+            src="./img/téléchargement.png"
+            class="img_marque"
+            alt="matebook"
+          />
+          <img
+            src="./img/Branding_lenovo-logo_lenovologoposred_low_res.png"
+            class="img_marque"
+            alt="matebook"
+          />
+        </div>
+      </section>
+    </main>
 
-
-
-
-    
-
-<footer>
-  <!-- Footer main -->
-  <section class="ft-main">
-    <div class="ft-main-item">
-      <h2 class="ft-title">About</h2>
-      <ul>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Pricing</a></li>
-        <li><a href="#">Customers</a></li>
-        <li><a href="#">Careers</a></li>
-      </ul>
-    </div>
-    <div class="ft-main-item">
-      <h2 class="ft-title">Resources</h2>
-      <ul>
-        <li><a href="#">Docs</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">eBooks</a></li>
-        <li><a href="#">Webinars</a></li>
-      </ul>
-    </div>
-    <div class="ft-main-item">
-      <h2 class="ft-title">Contact</h2>
-      <ul>
-        <li><a href="#">Help</a></li>
-        <li><a href="#">Sales</a></li>
-        <li><a href="#">Advertise</a></li>
-      </ul>
-    </div>
-    <div class="ft-main-item">
-      <h2 class="ft-title">Stay Updated</h2>
-      <form>
-        <input type="email" name="email" placeholder="Enter email address">
-        <input type="submit" value="Subscribe">
-      </form>
-    </div>
-  </section>
-
-  <!-- Footer social -->
-  <section class="ft-social">
-    <ul class="ft-social-list">
-      <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-      <li><a href="#"><i class="fab fa-github"></i></a></li>
-      <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-      <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-    </ul>
-  </section>
-
-  <!-- Footer legal -->
-  <section class="ft-legal">
-    <ul class="ft-legal-list">
-      <li><a href="#">Terms &amp; Conditions</a></li>
-      <li><a href="#">Privacy Policy</a></li>
-      <li>&copy; 2019 Copyright Nowrap Inc.</li>
-    </ul>
-  </section>
-</footer>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-icons">
+          <img src="img/instagram.png" alt="ig" class="footer-icon" />
+          <img src="img/facebook.png" alt="fb" class="footer-icon" />
+          <img src="img/youtube.png" alt="yt" class="footer-icon" />
+          <img src="img/twitter.png" alt="tw" class="footer-icon" />
+        </div>
+        <h1 class="copyrights">
+          Copyrights © 2020 All Rights Reserved. Aziz Shop.
+        </h1>
+      </div>
+    </footer>
   </body>
-  
-<script>
-	const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper');
-  
-	portfolioItems.forEach(portfolioItem => {
-	  portfolioItem.addEventListener('mouseover', () => {
-		console.log(portfolioItem.childNodes[1].classList)
-		portfolioItem.childNodes[1].classList.add('image-blur');
-	  });
-  
-	  portfolioItem.addEventListener('mouseout', () => {
-		console.log(portfolioItem.childNodes[1].classList)
-		portfolioItem.childNodes[1].classList.remove('image-blur');
-	  });
-	});
-  
+
+  <script>
+    const categorieItems = document.querySelectorAll(".categorie-item-wrapper");
+
+    categorieItems.forEach((categorieItem) => {
+      categorieItem.addEventListener("mouseover", () => {
+        console.log(categorieItem.childNodes[1].classList);
+        categorieItem.childNodes[1].classList.add("image-blur");
+      });
+
+      categorieItem.addEventListener("mouseout", () => {
+        console.log(categorieItem.childNodes[1].classList);
+        categorieItem.childNodes[1].classList.remove("image-blur");
+      });
+    });
   </script>
 </html>
